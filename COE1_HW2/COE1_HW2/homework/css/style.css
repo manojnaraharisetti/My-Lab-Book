@@ -1,0 +1,113 @@
+@import "style-print.css" print, speech;
+@media print {
+    #m-home {
+        width: 75%;
+        margin-left: 13%;
+    }
+
+    .picturesandmatter img {
+        width: 300px;
+        height: 110px;
+        margin-top: 100%;
+    }
+
+    .picturesandmatter .tm-section-title {
+        color: blue;
+    }
+}
+
+.picturesandmatter {
+    display: flex;
+}
+
+
+#m-about .box-bg:hover {
+    background-color: #87CEFA;
+    color: white;
+}
+
+#m-about .box-bg:hover h2 {
+    color: white;
+}
+
+
+p::first-letter {
+    color: #87CEFA;
+    font-size: 30px;
+}
+
+
+.tm-content-box {
+    box-shadow: 3px 4px 8px 8px grey;
+}
+
+
+.mahithamatter {
+    color: gainsboro !important;
+    letter-spacing: 5px;
+}
+
+
+h2+p {
+    font-style: italic;
+}
+
+
+
+p::first-letter {
+    margin-left: 30px !important;
+}
+
+
+.blocks li:nth-of-type(6) {
+    background-color: grey;
+}
+
+
+.mynavdd a:hover {
+    background-color: grey !important;
+}
+
+.submit-btn {
+    background-color: transparent;
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+    float: right;
+}
+
+.submit-btn:hover {
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+}
+
+
+.heading a:visited {
+    text-decoration: underline;
+}
+
+.heading a:hover {
+    font-weight: bold;
+}
+
+sup {
+    color: red;
+}
+
+
+
+.blocks li:nth-of-type(2) {
+    background-color: grey;
+}
+
+.blocks li:nth-of-type(4) {
+    background-color: grey;
+}
+
+
+
+.required::after {
+    content: '*';
+    color: red;
+    display: block;
+}
